@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto y cotizaciones | Natura Pisos</title>
+<meta name="description" content="Contáctanos para cotizar tu piso de madera: WhatsApp, teléfono o formulario. Te respondemos el mismo día.">
+<link rel="canonical" href="https://www.tudominio.com/contacto.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website"><meta property="og:locale" content="es_MX"><meta property="og:site_name" content="Natura Pisos">
+<meta property="og:title" content="Contacto | Natura Pisos">
+<meta property="og:description" content="Cotiza tu piso de madera por WhatsApp, teléfono o formulario.">
+<meta property="og:url" content="https://www.tudominio.com/contacto.html">
+<meta property="og:image" content="https://images.unsplash.com/photo-1648624219254-1adcd4e49bc6?auto=format&fit=crop&q=75&w=1200">
+<meta name="theme-color" content="#faf8f5">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/config.js"></script>
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div id="site-header"></div>
+<main id="contenido">
+  <section class="hero small" aria-label="Encabezado">
+    <div class="bg"><img data-img="contacto" data-w="1800" alt="Piso de madera con puerta blanca" fetchpriority="high" width="1800" height="900"></div>
+    <div class="container"><div class="content">
+      <span class="eyebrow" style="color:#e9d3bd">Contacto</span>
+      <h1>Hablemos de tu proyecto</h1>
+    </div></div>
+  </section>
+
+  <section class="section">
+    <div class="container split" style="align-items:start">
+      <div class="reveal">
+        <span class="eyebrow">Escríbenos</span>
+        <h2>Cotiza tu piso</h2>
+        <p class="lead">Llena el formulario y se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+        <form class="contact" id="form-contacto" style="margin-top:28px">
+          <div class="field"><label for="c-nombre">Nombre</label><input id="c-nombre" required autocomplete="name"></div>
+          <div class="field"><label for="c-tel">Teléfono</label><input id="c-tel" type="tel" required autocomplete="tel"></div>
+          <div class="field"><label for="c-interes">Me interesa</label><select id="c-interes"></select></div>
+          <div class="field"><label for="c-m2">Metros cuadrados aproximados (opcional)</label><input id="c-m2" inputmode="numeric"></div>
+          <div class="field"><label for="c-mensaje">Mensaje</label><textarea id="c-mensaje" rows="4"></textarea></div>
+          <div><button class="btn wa" type="submit">Enviar por WhatsApp</button></div>
+        </form>
+      </div>
+      <div class="reveal" data-d="1">
+        <span class="eyebrow">Datos de contacto</span>
+        <h2>También puedes</h2>
+        <ul class="info-list" id="info-contacto" style="margin-top:28px">
+          <li><strong>Teléfono</strong><a data-tel href="#">…</a></li>
+          <li><strong>WhatsApp</strong><a data-wa-text="Hola, quisiera mayor información." href="#">Chatea con nosotros</a></li>
+          <li><strong>Correo</strong><a data-mail href="#">…</a></li>
+          <li><strong>Dirección</strong><span data-dir>…</span></li>
+          <li><strong>Horario</strong><span data-hor>…</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script>
+  (function(){
+    function fill(){
+      var S=window.SITE; if(!S) return;
+      var t=document.querySelector('[data-tel]'); t.textContent=S.telefono; t.href='tel:'+S.telefonoLink;
+      var m=document.querySelector('[data-mail]'); m.textContent=S.correo; m.href='mailto:'+S.correo;
+      document.querySelector('[data-dir]').textContent=S.direccion;
+      document.querySelector('[data-hor]').textContent=S.horario;
+    }
+    if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',fill); else fill();
+  })();
+</script>
+</body>
+</html>

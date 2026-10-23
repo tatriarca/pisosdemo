@@ -1,0 +1,124 @@
+LISTA DE NOMBRES DE ARCHIVO
+===========================
+Guarda tu foto (formato .jpg) con EXACTAMENTE este nombre dentro de la carpeta indicada.
+El sitio la detecta solo; si no hay foto, muestra la de stock. No hay que cambiar código.
+
+1) FOTOS DE SECCIONES  →  carpeta images/secciones/
+   hero.jpg   ← Imagen principal del inicio (y de Productos)
+   nosotros.jpg   ← Nosotros (inicio y página Nosotros)
+   servicios.jpg   ← Servicios
+   contacto.jpg   ← Contacto
+   folletos.jpg   ← Encabezado de Folletos
+   cta.jpg   ← Fondo de las franjas "Escríbenos por WhatsApp"
+
+2) FOTO DE CADA LÍNEA  →  carpeta images/lineas/
+   naturals.jpg                ← Línea Naturals
+   basics.jpg                  ← Línea Basics
+   herringbone.jpg             ← Línea Herringbone
+   strips.jpg                  ← Línea Strips
+   slims.jpg                   ← Línea Slims
+   walnuts.jpg                 ← Línea Walnuts
+   sintetico.jpg               ← Línea Sintético
+   coextrusion-simple.jpg      ← Coextrusión Simple
+   coextrusion-dual.jpg        ← Coextrusión Dual
+   fachada.jpg                 ← Línea Fachada
+   panel.jpg                   ← Línea Panel
+   spc.jpg                     ← Línea SPC
+   spc-herringbone.jpg         ← SPC Herringbone
+   lvt.jpg                     ← Línea LVT
+
+3) FOTO DE CADA PRODUCTO  →  carpeta images/productos/
+
+   Línea Naturals
+     natural-oak.jpg               ← Natural Oak
+     honey-oak.jpg                 ← Honey Oak
+     ash-grey.jpg                  ← Ash Grey
+     smoked-oak.jpg                ← Smoked Oak
+
+   Línea Basics
+     basic-natural.jpg             ← Basic Natural
+     basic-caramel.jpg             ← Basic Caramel
+     basic-sand.jpg                ← Basic Sand
+     basic-coffee.jpg              ← Basic Coffee
+
+   Línea Herringbone
+     herringbone-natural.jpg       ← Herringbone Natural
+     herringbone-walnut.jpg        ← Herringbone Walnut
+     herringbone-grey.jpg          ← Herringbone Grey
+     herringbone-honey.jpg         ← Herringbone Honey
+
+   Línea Strips
+     strip-natural-oak.jpg         ← Strip Natural Oak
+     strip-maple.jpg               ← Strip Maple
+     strip-cherry.jpg              ← Strip Cherry
+     strip-teak.jpg                ← Strip Teak
+
+   Línea Slims
+     slim-light.jpg                ← Slim Light
+     slim-natural.jpg              ← Slim Natural
+     slim-dark.jpg                 ← Slim Dark
+     slim-cream.jpg                ← Slim Cream
+
+   Línea Walnuts
+     american-walnut.jpg           ← American Walnut
+     walnut-smoked.jpg             ← Walnut Smoked
+     walnut-classic.jpg            ← Walnut Classic
+     walnut-brushed.jpg            ← Walnut Brushed
+
+   Línea Sintético
+     sintetico-roble.jpg           ← Sintético Roble
+     sintetico-nogal.jpg           ← Sintético Nogal
+     sintetico-gris.jpg            ← Sintético Gris
+     sintetico-miel.jpg            ← Sintético Miel
+
+   Coextrusión Simple
+     coex-simple-teak.jpg          ← Coex Simple Teak
+     coex-simple-gris.jpg          ← Coex Simple Gris
+     coex-simple-cafe.jpg          ← Coex Simple Café
+     coex-simple-arena.jpg         ← Coex Simple Arena
+
+   Coextrusión Dual
+     coex-dual-ipe.jpg             ← Coex Dual Ipe
+     coex-dual-gris-piedra.jpg     ← Coex Dual Gris Piedra
+     coex-dual-nogal.jpg           ← Coex Dual Nogal
+     coex-dual-natural.jpg         ← Coex Dual Natural
+
+   Línea Fachada
+     fachada-lama-natural.jpg      ← Fachada Lama Natural
+     fachada-lama-oscura.jpg       ← Fachada Lama Oscura
+     fachada-lama-gris.jpg         ← Fachada Lama Gris
+     fachada-lama-miel.jpg         ← Fachada Lama Miel
+
+   Línea Panel
+     panel-acustico-roble.jpg      ← Panel Acústico Roble
+     panel-liston-nogal.jpg        ← Panel Listón Nogal
+     panel-liston-natural.jpg      ← Panel Listón Natural
+     panel-liso-gris.jpg           ← Panel Liso Gris
+
+   Línea SPC
+     spc-roble-claro.jpg           ← SPC Roble Claro
+     spc-roble-gris.jpg            ← SPC Roble Gris
+     spc-nogal.jpg                 ← SPC Nogal
+     spc-natural.jpg               ← SPC Natural
+
+   SPC Herringbone
+     spc-espiga-mist.jpg           ← SPC Espiga Mist
+     spc-espiga-natural.jpg        ← SPC Espiga Natural
+     spc-espiga-gris.jpg           ← SPC Espiga Gris
+     spc-espiga-nogal.jpg          ← SPC Espiga Nogal
+
+   Línea LVT
+     lvt-oak-sand.jpg              ← LVT Oak Sand
+     lvt-oak-grey.jpg              ← LVT Oak Grey
+     lvt-walnut.jpg                ← LVT Walnut
+     lvt-natural.jpg               ← LVT Natural
+
+4) FOLLETOS  →  carpeta images/folletos/
+   catalogo-general-2026.jpg         ← Catálogo general 2026
+   linea-naturals.jpg                ← Línea Naturals
+   linea-herringbone.jpg             ← Línea Herringbone
+   pisos-spc-y-lvt.jpg               ← Pisos SPC y LVT
+   fachadas-y-paneles.jpg            ← Fachadas y paneles
+   guia-de-mantenimiento.jpg         ← Guía de mantenimiento
+
+LOGO  →  reemplaza images/logo.svg (o logo.png y cambia la ruta en js/config.js).
